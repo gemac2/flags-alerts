@@ -1,1 +1,1 @@
-worker: python bot_trading.py
+worker: python ./script.py
