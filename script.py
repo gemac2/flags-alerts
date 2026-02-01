@@ -9,7 +9,7 @@ from binance.client import Client
 from dotenv import load_dotenv
 
 # === CONFIGURACIÓN ===
-client = Client() 
+client = Client(tld='com')
 load_dotenv()
 
 telegram_token = os.getenv("TELEGRAM_BOT_TOKEN")
